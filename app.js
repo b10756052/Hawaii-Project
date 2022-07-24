@@ -16,4 +16,4 @@ window.addEventListener("scroll", () => {
   }
 });
 
-console.log("志j好帥");
+console.log("志j好帥！");
