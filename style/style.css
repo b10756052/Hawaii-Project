@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+  background-color: white;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header div.logo {
+  margin-left: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 4;
+      -ms-flex: 4 1 400px;
+          flex: 4 1 400px;
+}
+
+header div.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+
+header nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #09777D;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+
+main section.backImage {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url(../Pictures/pexels-photo-416676.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main section.backImage h3 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+main section.backImage button.start {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 0.5rem 3rem;
+  background-color: #22A5A5;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+main section.backImage div.filter {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 90vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+main section.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main section.second h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main section.second section.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section.second section.cards div.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 80vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+main section.second section.cards div.card div.img-container {
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main section.second section.cards div.card div.img-container img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+main section.second section.cards div.card div.img-container img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main section.second section.cards div.card h4 {
+  font-size: 2rem;
+}
+
+main section.second section.cards div.card p {
+  font-size: 1.25rem;
+}
+
+main section.second section.cards div.card a {
+  background-color: #09777D;
+  color: #FFFCFC;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+}
+
+main section.footer {
+  padding: 2rem;
+  background-color: #CEC8C8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.footer div.logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section.footer div.logo img {
+  width: 5vw;
+  height: 5vw;
+}
+
+main section.footer nav.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section.footer nav.footer ul li {
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+main section.footer nav.footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main section.footer div.footer_icon img {
+  margin: 1rem 1rem;
+  height: 4vw;
+  width: 4vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #075b60;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #09777D;
+}
+
+@media screen and (max-width: 850px) {
+  main section.second section.cards div.card img {
+    width: 35vw;
+    height: 35vw;
+  }
+  main section.footer div.footer_icon img {
+    width: 7vw;
+    height: 7vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header div.logo {
+    margin-left: 0.5rem;
+  }
+  header div.logo img {
+    width: 15vw;
+    height: 15vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
